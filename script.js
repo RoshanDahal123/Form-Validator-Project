@@ -110,7 +110,6 @@ checkRequired([Username,Email,Password1,Password2]);
 checkLength(Username,3,25);
 checkLength(Password1,6,15);
 checkEmail(Email);
-PasswordStrength(Password1);
 PasswordMatch(Password1,Password2);
 
 
